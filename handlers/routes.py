@@ -1,4 +1,4 @@
-from flask import render_template, request, redirect, make_response
+from flask import request, redirect, make_response
 from modules import rest, generator
 
 
@@ -15,9 +15,7 @@ def configure_routes(app):
 
         if username is None:
             title = "Error! Username Not Found!"
-            message = '''
-                Please provide username as a query parameter. Example: https://github-stats-putuwaw.vercel.app/api?username=putuwaw
-                '''
+            message = "Please provide username as a query parameter."
             response = make_response(generator.get_error(title, message))
             response.headers['Content-Type'] = 'image/svg+xml'
             return response
