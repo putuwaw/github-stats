@@ -1,32 +1,35 @@
 # github-stats
 
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-GitHub Stats is a simple, free, and open-source GitHub profile statistics generator. It build using Python according to documentation from GitHub API. This project is inspired by [github-readme-stats](anuraghazra/github-readme-stats).
+GitHub Stats is a simple, free, and open-source GitHub profile statistics generator. This project was built using Python programming language with web framework Flask in accordance with GitHub API documentation. This project was inspired by [github-readme-stats](anuraghazra/github-readme-stats).
 
 ## Features 💡
 
 Using Github Stats, you can:
 
-- [x] Create and customize badge for your GitHub profile
-- [x] Use GitHub REST API to get the data
+- [x] Create and customize badge for your GitHub profile.
+- [x] Use GitHub REST API to get the data.
 
-## Usage
+## Usage 👨‍💻
 
-Create your own badge by change the username and theme in the URL below. Curently there are 2 themes available: `dark` and `light`.
+Create your own badge by change the `USERNAME` and `THEME` in the URL below. Curently there are 2 themes available: `dark` and `light`.
 
-```bash
+```url
 https://github-stats-putuwaw.vercel.app/api?username=USERNAME&theme=THEME
 ```
 
 Examples:
 
 `Dark theme:`
-![](https://github-stats-putuwaw.vercel.app/api?username=putuwaw&theme=dark)
 
-`Light theme:
-`![](https://github-stats-putuwaw.vercel.app/api?username=putuwaw&theme=light)
+[![](https://github-stats-putuwaw.vercel.app/api?username=putuwaw&theme=dark)](https://github-stats-putuwaw.vercel.app/api?username=putuwaw&theme=dark)
+
+`Light theme:`
+
+[![](https://github-stats-putuwaw.vercel.app/api?username=putuwaw&theme=light)](https://github-stats-putuwaw.vercel.app/api?username=putuwaw&theme=dark)
 
 ## Prerequisites 📋
 
