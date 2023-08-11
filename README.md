@@ -12,6 +12,7 @@ Using Github Stats, you can:
 
 - [x] Create and customize badge for your GitHub profile.
 - [x] Use GitHub REST API to get the data.
+- [x] Use GitHub GraphQL API to get the data.
 
 ## Usage 👨‍💻
 
@@ -20,6 +21,9 @@ Create your own badge by change the `USERNAME` and `THEME` in the URL below. Cur
 ```url
 https://github-stats-putuwaw.vercel.app/api?username=USERNAME&theme=THEME
 ```
+
+> [!NOTE]  
+> You can also use the GraphQL API by using `/api/graphql` endpoint instead of REST API on `/api` endpoint.
 
 Examples:
 
